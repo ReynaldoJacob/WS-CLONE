@@ -14,12 +14,23 @@ Asegúrate de tener instalados los siguientes requisitos antes de continuar:
 ## Pasos para ejecutar la aplicación
 
 1. Una vez instalado el administrador de paquetes, debes ejecutar el siguiete comando:
-
+```
 npm install -g @quasar/cli
+```
 
-2. Ahora debes ejecutar el build de quasar  con el siguiente comando: 
+2. una vez clonado el proyecto, ingresa el la carpeta llamada frontend-project y ejecuta la instalacion de dependencias
 
-quasar build
+  ```
+  npm install
+  ```
+
+3. Ejecuta el servidor de quasar
+
+  ```
+  quasar dev
+  ```
+4. Automaticamente se abrira el navegador y tendras listo el proyecto del lado del front-end
+
 
 
 
