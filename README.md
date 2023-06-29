@@ -39,7 +39,7 @@ Para el back-end se esta usando laravel para atender las peticiones de las API R
 
 Antes de comenzar, asegúrate de tener instalado lo siguiente en tu sistema:
 
-- PHP (versión 7.4 o superior)
+- PHP (versión 8.0 o superior)
 - Composer
 - MySQL (u otro sistema de gestión de bases de datos compatible)
 
