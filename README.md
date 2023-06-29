@@ -39,9 +39,9 @@ Para el back-end se esta usando laravel para atender las peticiones de las API R
 
 Antes de comenzar, asegúrate de tener instalado lo siguiente en tu sistema:
 
-PHP (versión 7.4 o superior)
-Composer
-MySQL (u otro sistema de gestión de bases de datos compatible)
+-PHP (versión 7.4 o superior)
+-Composer
+-MySQL (u otro sistema de gestión de bases de datos compatible)
 
 
 
@@ -51,22 +51,24 @@ MySQL (u otro sistema de gestión de bases de datos compatible)
   ```
 2. Crea un archivo de configuración .env basado en el archivo .env.example.
    
-3. Genera una clave de aplicación.
-```
-  php artisan key:generate
-  ```
-4. Configura los detalles de la base de datos en el archivo .env. Asegúrate de proporcionar los valores correctos para DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME y DB_PASSWORD.
 
-5. Ejecuta las migraciones de la base de datos para crear las tablas necesarias.
+3. Configura los detalles de la base de datos en el archivo .env. Asegúrate de proporcionar los valores correctos para DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME y DB_PASSWORD.
+
+4. Ejecuta las migraciones de la base de datos para crear las tablas necesarias.
 
 ```
   php artisan migrate
   ```
+5. Inicia el seeder para insertar contactos
+   ```
+   php artisan db:seed --class=ContactSeeder
+   ```
 6. Inicia el servidor de desarrollo de Laravel.
 ```
   php artisan serve
   ```
 
+## IMPORTANTE: recuerda mantener ambos servidores en para evitar errores.
 
 
 
