@@ -65,7 +65,7 @@ php artisan db:seed --class=ContactSeeder
 php artisan serve
 ```
 
-## IMPORTANTE: recuerda mantener ambos servidores en para evitar errores.
+## IMPORTANTE: recuerda mantener ambos servidores en ejecución para evitar errores.
 
 
 
